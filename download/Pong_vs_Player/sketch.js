@@ -1,10 +1,38 @@
+/*---------------------------------------------------------------
+
+Cassic Games - Pong
+
+Created by Filipe Oliveira
+
+First code created on Javascript, following the class Classic Games Part 1: Starting on Javascript with Pong, created by Alura, with some adjustments
+
+-----------------------------------------------------------------
+
+- Click on the play button above to start
+
+- Click on the game screen to control the rackets
+
+
+   - Player 1 -       |   - Player 2 -       
+                      |
+Press W to move up    | Press up_arrow to move up
+Press S to move down  | Press down_arrow to move down
+
+------------------------------------------------------------------
+
+** The game has some bugs that can disrupt the experience, but they will be fixed soon **
+
+----------------------------------------------------------------*/
+
+
+
 //atributos da bolinha
 let xBolinha = 300
 let yBolinha = 200
 let diametro = 30
 let raio = diametro/2
-let velocidadeX = 7
-let velocidadeY = 7
+let velocidadeX = 6
+let velocidadeY = 6 
 
 //atributos da raquete
 let xRaquete = 5
@@ -125,10 +153,10 @@ function moverRaquete(){
 
 function moverRaqueteO(){
 
-    if(keyIsDown(38) && yRaqueteO >= 1){
+    if(keyIsDown(UP_ARROW) && yRaqueteO >= 1){
     yRaqueteO -= 6
   }
-  if(keyIsDown(12) && yRaqueteO <= 305){
+  if(keyIsDown(DOWN_ARROW) && yRaqueteO <= 305){
     yRaqueteO += 6
   } 
   
