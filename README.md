@@ -14,6 +14,9 @@
  
  ---
  
- A pasta download contem todos os arquivos utilizados para a criação deste jogo, porém caso queira jogar ou realizar alguma mudança recomendo fortemente que seja atráves do link fornecido acima, pois o editor online p5.js cria automaticamente uma estrutura capaz de rodar o jogo de uma maneira facilitada. 
+ * A pasta download contem todos os arquivos utilizados para a criação deste jogo, porém caso queira jogar ou realizar alguma mudança recomendo fortemente que seja atráves do link fornecido acima, pois o editor online p5.js cria automaticamente uma estrutura capaz de rodar o jogo de uma maneira facilitada.
+ 
+ 
+ * O jogo possui alguns **bugs** que podem afetar a experiência do usuário e em breve serão resolvidos, caso você encontre algum bug por favor crie uma **issue**, e se souber como resolver o problema fique a vontade para criar um **fork**. 
  
  
